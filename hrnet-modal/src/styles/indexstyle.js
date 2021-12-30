@@ -31,7 +31,18 @@ img{
 
 .button_modal{
     margin: 0 auto;
+    height: 45px;
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    background-color: #6e850f;
+    box-shadow: 2px 5px 16px 0px #0B325E, 5px 5px 40px 5px rgba(0,0,0,0.28);
+    border-radius: 5px;
+    transition: transform 300ms ease-out;
+        &:hover{
+            transform: scale(1.2);
+        }
 }
-`
+`;
 
 export default Indexstyle;

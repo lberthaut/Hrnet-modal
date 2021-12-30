@@ -6,7 +6,7 @@ const Modalstyle = createGlobalStyle`
     width: 100vw;
     height: 100vh;
     background-color: grey;
-    opacity: 0.5;
+    opacity: 0.7;
     position: fixed;
 }
 
@@ -23,12 +23,13 @@ const Modalstyle = createGlobalStyle`
   flex-wrap: wrap;
   text-align: center;
   border-radius: 5px;
-
+  box-shadow: 5px 3px 29px 10px rgba(0,0,0,0.5);
 }
 
 .close_button{
     margin-left: 90%;
     margin-top: 2%;
+    cursor: pointer;
 }
 
 h2{
