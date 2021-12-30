@@ -5,10 +5,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route to="/" element={<Modalpage/>}/>
+        <Route exact path="/" element={<Modalpage />} />
       </Routes>
     </BrowserRouter>
-  )
-  }
+
+  );
+}
 
 export default App;
