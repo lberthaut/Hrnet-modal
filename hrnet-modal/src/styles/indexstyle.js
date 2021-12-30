@@ -3,16 +3,19 @@ import { createGlobalStyle } from "styled-components";
 const Indexstyle = createGlobalStyle`
 body{
     margin: 0%;
+
 }
 
-#root{
+.menu{
     display: flex;
     flex-direction: column;
     width: 40%;
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 45px 5px rgba(0,0,0,0.73);
-    margin: 0 auto;
-    height: 100vh;
+    margin-left: 30%;
     padding-top: 4%;
+    position: fixed;
+    height: 100%;
+    z-index: -1;
 }
 
 img{
