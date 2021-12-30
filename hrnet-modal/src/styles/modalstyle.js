@@ -13,11 +13,31 @@ const Modalstyle = createGlobalStyle`
 .modal_container{
     z-index: 2;
     background-color: white;
-    width: 35%;
+    width: 45%;
     position: absolute;
     left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+.close_button{
+    margin-left: 90%;
+    margin-top: 2%;
+}
+
+h2{
+    color: red;
+}
+
+.text{
+    margin: 12%;
+    font-size: 18px;
 }
 `
 

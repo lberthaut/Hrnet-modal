@@ -7,12 +7,12 @@ isShowing
     <>
     <div className="overlay"></div>
       <div className="modal_container">
-        <i className="far fa-times-circle"></i>
+        <i className="far fa-times-circle close_button"></i>
         <div className="'content_modal_container">
           <h2 className="modal_title">Modal HRnet</h2>
           <p className="text">
-            Vous pouvez cliquer sur le bouton "close" ou en dehors de la fenêtre
-            pour fermer la modal
+            Vous pouvez cliquer sur le bouton "close" ou en dehors de la modal
+            pour la fermer
           </p>
         </div>
     </div>
