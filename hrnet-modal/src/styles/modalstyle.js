@@ -40,6 +40,10 @@ h2{
     margin: 12%;
     font-size: 18px;
 }
+
+.close{
+    width: 16px;
+}
 `
 
 export default Modalstyle;

@@ -26,7 +26,7 @@ img{
 
 .title{
     margin: 0 auto;
-    padding-bottom: 20%;
+    padding-bottom: 40%;
 }
 
 .button_modal{
