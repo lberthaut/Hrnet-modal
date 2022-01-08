@@ -1,0 +1,23 @@
+{
+  "name": "hrnet-modal-lberthaut-oc",
+  "version": "1.0.0",
+  "description": "modal react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lberthaut/lberthaut_14_23122021_modal.git"
+  },
+  "keywords": [
+    "modal",
+    "react"
+  ],
+  "author": "lberthaut",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lberthaut/lberthaut_14_23122021_modal/issues"
+  },
+  "homepage": "https://github.com/lberthaut/lberthaut_14_23122021_modal#readme"
+}
